@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "jimp": "^0.22.8",
+    "mathjs": "^11.8.2",
+    "pdf-to-png-converter": "^3.0.0",
+    "png-js": "^1.0.0"
+  }
+}
