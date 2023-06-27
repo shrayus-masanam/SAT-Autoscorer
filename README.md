@@ -12,19 +12,19 @@ If you provide the path to a JSON file containing the answers to the exam (forma
 
 Example command: `node index.js sample.pdf data/answer_keys/practice-test-1.json`:
 
-<img src="https://github.com/shrayus-masanam/SAT-Autoscorer/assets/45981228/d97ef664-d440-4738-aa12-f9b35be47e81" height=500>
+<img src="https://github.com/shrayus-masanam/SAT-Autoscorer/assets/45981228/8b9642b8-d72f-44ef-921d-c798281bcff3" height=500>
 
 If you don't provide an answer key, the program will just display the values that it read from the answer sheet.
 
 Example command: `node index.js sample.pdf`:
 
-<img src="https://github.com/shrayus-masanam/SAT-Autoscorer/assets/45981228/5c9f5e76-5a44-4ff4-83a9-9417301b7325" height=500>
+<img src="https://github.com/shrayus-masanam/SAT-Autoscorer/assets/45981228/e7fe5b99-943e-4acc-a722-40d13abad237" height=500>
 
 The `debug` argument generates files that let you view which pixels the program analyzes to determine the answer choice that you selected. This will create a new folder named `debug` in the working directory.
 
 Example command: `node index.js sample.pdf debug`:
 
-<img src="https://github.com/shrayus-masanam/SAT-Autoscorer/assets/45981228/22aa9ea1-64c2-48a1-b069-bbb9ab98b44c" height=500>
+<img src="https://github.com/shrayus-masanam/SAT-Autoscorer/assets/45981228/d41ccb7b-432e-4198-af7a-21eb26675005" height=500>
 
 ## Answer key format
 An answer key JSON file contains a single dimensional array with strings representing the correct answer to all the questions on the exam, in order of appearance (the first 52 elements of the array are multiple-choice answers to the reading section, the next 44 for the writing section, etc). 
